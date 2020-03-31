@@ -1,4 +1,7 @@
-var count = 0;
-    while (count < 100) {
-    count++; document.getElementById("theCount").innerHTML += count + "<br>";
-} 
+function counToTen() {
+    var count = 0;
+    while (count < 10) {
+        count++;
+        document.getElementById("theCount") .innerHTML += count + "<br>";
+    }
+}
